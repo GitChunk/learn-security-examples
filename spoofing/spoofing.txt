@@ -1,1 +1,11 @@
-Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+Q: Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+
+A: The vulnerability is the `cookie` option in the `session` middleware. It allows for access to the session and an attacker could gain access to sensetive info
+ 
+
+
+Q: Which CIA property does tampering violate?
+
+A: Confidentiality: It allows for access to the session and an attacker could gain access to sensetive info
+ 
