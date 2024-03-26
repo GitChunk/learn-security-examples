@@ -1,2 +1,4 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+A: there is no way to gracefully hamdle an error, so a try catch statement is necessary to safeguard against a bad input
 - What additional security mechanisms can you incorporate to prevent such attacks?
+A: Add in midddleware, before the route, to allow a certain amount of requests per set period of time to limit the rate of requests incoming so as to not crash the server

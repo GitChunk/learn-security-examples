@@ -1,3 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+- User id is not properly sanitized
+
 Which CIA property does tampering violate?
+- Integrity, user can tamper with `id`
+
 What additional security mechanisms can you incorporate?
+- hash the pw and/or username (sha256[bcrypt] NOT mda5) and encrypt in storage and in transit
+
+- 2fa

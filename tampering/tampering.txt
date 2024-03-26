@@ -1,0 +1,7 @@
+• Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+A: There is no input validation and code snitization that prevents malicious html input
+
+• Which CIA property does tampering violate?
+A: Integrity: it alows unsanitized data which can present problems with tampering of the redirect address
+

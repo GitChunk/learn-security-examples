@@ -1,2 +1,6 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+A: ther eis no authentication, any user can provide a different username and amesage and send it
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+A: middleware, imple,ent authorization and user authentication
